@@ -9,3 +9,9 @@ def homepage(request):
 def about(request):
     #return HttpResponse('about')
     return render(request, 'about.html')
+
+def cv_rama(request):
+    return render(request, 'cvs.html')
+
+def cv_gasti(request):
+    return render(request, 'cvs.html')
